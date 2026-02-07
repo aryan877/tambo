@@ -15,7 +15,7 @@ export const llmProviderConfig: LlmProviderConfig = {
     isDefaultProvider: true,
     providerSpecificParams: {
       parallelToolCalls: false,
-      strictJsonSchema: true,
+      strictJsonSchema: false,
     },
   },
   anthropic: {
