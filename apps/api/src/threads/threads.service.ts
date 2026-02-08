@@ -1982,6 +1982,7 @@ export class ThreadsService {
             component: finalThreadMessage.component as ComponentDecisionV2Dto,
           },
           availableComponents: originalRequest.availableComponents,
+          clientTools: originalRequest.clientTools,
           contextKey: originalRequest.contextKey,
         };
 

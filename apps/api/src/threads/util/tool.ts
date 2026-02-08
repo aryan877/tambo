@@ -250,6 +250,7 @@ export async function callSystemTool(
         tool_call_id: toolCallId,
       },
       availableComponents: advanceRequestDto.availableComponents,
+      clientTools: advanceRequestDto.clientTools,
       contextKey: advanceRequestDto.contextKey,
     };
 
